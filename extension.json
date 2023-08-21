@@ -1,0 +1,14 @@
+{
+  "name": "MediaWikiTagManager",
+  "version": "1.0.0",
+  "author": "Luca Cannarozzo (@cannarocks)",
+  "description": "Add Google Tag Manager to your MediaWiki",
+  "license-name": "GPL-2.0-or-later",
+  "type": "other",
+  "dependencies": {
+    "MediaWiki": ">=1.35"
+  },
+  "config": {
+    "GTMCode": ""
+  }
+}
