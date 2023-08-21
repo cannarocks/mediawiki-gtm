@@ -8,14 +8,14 @@ use MediaWiki\MediaWikiServices;
 
 $wgExtensionCredits['other'][] = array(
     'path' => __FILE__,
-    'name' => 'GoogleTagManager',
+    'name' => 'MediaWikiTagManager',
     'author' => 'Luca Cannarozzo (@cannarocks)',
     'url' => 'https://github.com/cannarocks/mediawiki-gtm',
     'descriptionmsg' => 'googletagmanager-desc',
     'version' => '1.0.0',
 );
 
-$wgHooks['BeforePageDisplay'][] = 'GoogleTagManager::onBeforePageDisplay';
+$wgHooks['BeforePageDisplay'][] = 'MediaWikiTagManager::onBeforePageDisplay';
 
 class MediaWikiTagManager
 {
